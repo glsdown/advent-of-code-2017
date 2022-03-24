@@ -1,0 +1,31 @@
+a = 1
+b = 106500
+c = 123500
+d = 0
+e = 0
+f = 0
+g = 0
+h = 0
+
+while True:
+    f=1
+    d=2
+    e=2
+
+    if d*e == b:
+        f=0
+    g = 0
+    e = b
+    d = b
+
+    if f != 0:
+        h += 1
+
+    g=b
+    g-=c
+
+    if g == 0:
+
+        break
+
+    b = b-17
